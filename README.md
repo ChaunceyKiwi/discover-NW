@@ -28,6 +28,7 @@ node app.js
 * Underneath technique to specify the search scope is drawing an ellipse as searching scope. 
 * Since google map API does not natively support drawing an ellipse directly, we set starting point and destination as two focus points (F1 and F2) of ellipse, with an extra parameter to specify the semi-minor axis of ellipse. 
 
+<img src="./demo/demo2.jpg" width="200" height="280" />
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Ellipse-def0.svg" width="300" height="250" />
 
 * Using the Parametric Equation of an Ellipse to draw points to form an polygon as an simulation of ellipse.
@@ -36,4 +37,3 @@ node app.js
   
 * R is the distance between each point on ellpise and center (the midpoint of F1 and F2). Checking if a candidate is within the ellipse can be done by compare the distance to center with R.
 
-<img src="./demo/demo2.jpg" width="250" height="400" />
