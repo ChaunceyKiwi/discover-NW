@@ -18,3 +18,6 @@ node app.js
 ```
 
 ### Specify the start position and destination
+![Demo1](./demo/demo1.jpg)
+
+![Demo2](./demo/demo2.jpg)
